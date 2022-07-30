@@ -44,7 +44,7 @@ def get():
                 content = json.dumps(dict1, indent=4, ensure_ascii=False)
                 playlist = os.path.join(
                     lplpathdir, os.path.basename(root))+".lpl"
-                with open(playlist, "w") as f:
+                with open(playlist, "w", encoding='utf8') as f:
                     f.write(content)
         messagebox.showinfo('提示', '任务执行已结束,Task Completed')
 
