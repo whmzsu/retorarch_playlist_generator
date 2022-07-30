@@ -7,7 +7,7 @@ from tkinter.filedialog import askdirectory
 
 def get():
     romspathdir = entry_rom_path.get()
-    iplpathdir = entry_dest_playlist.get()
+    lplpathdir = entry_dest_playlist.get()
     prefix = entry_prefix.get()
     choice = check1.get()
 
@@ -15,10 +15,10 @@ def get():
     if not romspathdir:
         param_flag = 0
         messagebox.showinfo('提示', '请输入正确ROM路径,Please choose the rom path !')
-    if not iplpathdir:
+    if not lplpathdir:
         param_flag = 0
         messagebox.showinfo(
-            '提示', '请输入正确的Playlist文件输出路径,Please choose the ipl output path !')
+            '提示', '请输入正确的Playlist文件输出路径,Please choose the lpl output path !')
 
     if param_flag:
         for root, dirs, files in os.walk(romspathdir):
@@ -36,14 +36,14 @@ def get():
                     else:
                         rom_path = rom_path.replace("\\", "/")
                         rom_path = rom_path.replace("//", "/")
-                    db_name = os.path.basename(root) + '.ipl'
+                    db_name = os.path.basename(root) + '.lpl'
                     label = os.path.splitext(file)[0]
                     list1.append({"path": rom_path,
                                   "label": label, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
                 dict1 = {"items": list1}
                 content = json.dumps(dict1, indent=4, ensure_ascii=False)
                 playlist = os.path.join(
-                    iplpathdir, os.path.basename(root))+".ipl"
+                    lplpathdir, os.path.basename(root))+".lpl"
                 with open(playlist, "w") as f:
                     f.write(content)
         messagebox.showinfo('提示', '任务执行已结束,Task Completed')
