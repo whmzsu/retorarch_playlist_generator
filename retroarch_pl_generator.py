@@ -36,5 +36,5 @@ for root, dirs, files in os.walk(romspathdir):
         dict1 = {"items": list1}
         content = json.dumps(dict1, indent=4, ensure_ascii=False)
         playlist = os.path.join(lplpathdir, os.path.basename(root))+".lpl"
-        with open(playlist, "w") as f:
+        with open(playlist, "w", encoding='utf8') as f:
             f.write(content)
