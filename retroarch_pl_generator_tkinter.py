@@ -90,7 +90,7 @@ entry_dest_playlist = tk.Entry(frame3, textvariable=path2,
 button_dest_playlist = tk.Button(frame3, text="Playlist output path 输出文件夹选择", command=lambda: selectpath(
     path2))
 
-entry_label = tk.Label(frame4, text="rom path prefix 路径前缀(可选optional)")
+entry_label = tk.Label(frame4, text="Rom path prefix 路径前缀(可选Optional)")
 entry_prefix = tk.Entry(frame4, textvariable=path3, width=60)
 button_confirm = tk.Button(frame5, text="确定 Go", command=lambda: get())
 
