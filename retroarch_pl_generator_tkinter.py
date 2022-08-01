@@ -6,10 +6,11 @@ from tkinter.filedialog import askdirectory
 
 
 def get():
+    choice = check1.get()
     romspathdir = entry_rom_path.get()
     lplpathdir = entry_dest_playlist.get()
     prefix = entry_prefix.get()
-    choice = check1.get()
+    fix_db_name = entry_db_name.get()
 
     param_flag = 1
     if not romspathdir:
@@ -36,7 +37,10 @@ def get():
                     else:
                         rom_path = rom_path.replace("\\", "/")
                         rom_path = rom_path.replace("//", "/")
-                    db_name = os.path.basename(root) + '.lpl'
+                    if fix_db_name:
+                        db_name = fix_db_name
+                    else:
+                        db_name = os.path.basename(root) + '.lpl'
                     label = os.path.splitext(file)[0]
                     list1.append({"path": rom_path,
                                   "label": label, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
@@ -47,6 +51,8 @@ def get():
                 with open(playlist, "w", encoding='utf8') as f:
                     f.write(content)
         messagebox.showinfo('提示', '任务执行已结束,Task Completed')
+        os.startfile(lplpathdir)
+
 
 #################GUI####################
 
@@ -61,7 +67,6 @@ window.title("Retroarch Playlist generator 列表生成工具")
 
 path1 = tk.StringVar()
 path2 = tk.StringVar()
-path3 = tk.StringVar()
 
 
 check1 = tk.BooleanVar()
@@ -72,10 +77,11 @@ frame2 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
 frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
 frame4 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
 frame5 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
+frame6 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
 
-OS_type1 = tk.Radiobutton(frame1, text="Windows", variable=check1,
+OS_type1 = tk.Radiobutton(frame1, text="游戏环境Windows系统", variable=check1,
                           value=1, justify='left')
-OS_type2 = tk.Radiobutton(frame1, text="非(Not) Windows", variable=check1,
+OS_type2 = tk.Radiobutton(frame1, text="游戏环境非(Not) Windows，比如Linux，Android系统", variable=check1,
                           value=0, justify='left')
 
 
@@ -90,9 +96,16 @@ entry_dest_playlist = tk.Entry(frame3, textvariable=path2,
 button_dest_playlist = tk.Button(frame3, text="Playlist output path 输出文件夹选择", command=lambda: selectpath(
     path2))
 
-entry_label = tk.Label(frame4, text="Rom path prefix 路径前缀(可选Optional)")
-entry_prefix = tk.Entry(frame4, textvariable=path3, width=60)
-button_confirm = tk.Button(frame5, text="确定 Go", command=lambda: get())
+entry_prefix_label = tk.Label(
+    frame4, text="Rom path prefix 路径前缀,比如为其他平台制作列表的场景(可选,Optional)")
+entry_prefix = tk.Entry(frame4, width=60)
+
+entry_db_name_label = tk.Label(
+    frame5, text="固定所有列表文件的db_name值,比如FBA.lpl？默认为rom所在文件夹名称(可选,Optional)")
+entry_db_name = tk.Entry(frame5, width=60)
+
+
+button_confirm = tk.Button(frame6, text="确定 Go", command=lambda: get())
 
 # label_ori_dir.pack()
 entry_rom_path.pack()
@@ -106,14 +119,17 @@ button_dest_playlist.pack()
 OS_type1.pack(anchor='w')
 OS_type2.pack(anchor='w')
 
-entry_label.pack()
+entry_prefix_label.pack()
 entry_prefix.pack()
 button_confirm.pack()
+
+entry_db_name_label.pack()
+entry_db_name.pack()
 
 frame1.pack(padx=10, pady=10)
 frame2.pack(padx=10, pady=10)
 frame3.pack(padx=10, pady=10)
 frame4.pack(padx=10, pady=10)
 frame5.pack(padx=10, pady=10)
-
+frame6.pack(padx=10, pady=10)
 window.mainloop()

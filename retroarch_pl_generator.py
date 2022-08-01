@@ -3,7 +3,7 @@ import json
 import easygui
 import csv
 from xml.dom.minidom import parse
-
+# 根据文件名-生成playlist-同时参考2个文件，来正确生成英文名称或者中文名称，中文名称优先
 
 romspathdir = easygui.diropenbox(
     "Roms dir ", "Choose the rom file location，选择ROM所在目录")
@@ -64,8 +64,8 @@ for root, dirs, files in os.walk(romspathdir):
                 label = gamedict2[filebasename]
             else:
                 label = filebasename
-            for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*"]:
-                label = label.replace(i, '-')
+            for i in ["<", ">", ":", '"', "'", "/", "\\", "|", "?", "*", "&"]:
+                label = label.replace(i, '_')
             list1.append({"path": rom_path,
                           "label": label, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
         dict1 = {"items": list1}

@@ -22,9 +22,9 @@ for rom in roms:
     filebasename = os.path.splitext(romfile)[0]
     if filebasename in gamedict.keys():
         label = gamedict[filebasename]
-        for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*"]:
-            gamename = gamename.replace(i, '-')
-            label = label.replace(i, '-')
+        for i in ["<", ">", ":", '"', "'", "/", "'", "\\", "|", "?", "*", "*"]:
+            gamename = gamename.replace(i, '_')
+            label = label.replace(i, '_')
         try:
             shutil.move(os.path.join(thumbpath, gamename+".png"),
                         os.path.join(thumbpath, label+".png"))
