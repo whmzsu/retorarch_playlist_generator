@@ -69,8 +69,7 @@ def main():
     path1 = tk.StringVar()
     path2 = tk.StringVar()
 
-    check1 = tk.BooleanVar()
-    check1.set(1)
+    check1 = tk.BooleanVar(value=1)
 
     frame1 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
     frame2 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
