@@ -101,7 +101,7 @@ entry_prefix_label = tk.Label(
 entry_prefix = tk.Entry(frame4, width=60)
 
 entry_db_name_label = tk.Label(
-    frame5, text="固定所有列表文件的db_name值,比如FBA.lpl？默认为rom所在文件夹名称(可选,Optional)")
+    frame5, text="固定所有列表文件的db_name值,比如MAME.lpl？默认为rom所在文件夹名称(可选,Optional)")
 entry_db_name = tk.Entry(frame5, width=60)
 
 
