@@ -20,7 +20,7 @@ fixdbname = easygui.enterbox(
 choice = easygui.choicebox("请选择你的游戏平台", "选择你的游戏平台", [
                            "Windows", "非Windows,Not Windows，比如Linux，Android，Switch等等"])
 
-with open("mame-list-cn.csv", mode="r", encoding="utf-8-sig") as f:
+with open("mame_0820.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:

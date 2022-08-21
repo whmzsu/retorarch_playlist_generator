@@ -1,0 +1,644 @@
+{
+    "items": [
+        {
+            "path": "D:\\naomi\\gunsur2j.zip",
+            "label": "Q 枪下游魂 2_ 生化危机 代号 - 维罗尼卡 (日版, BHF1 版本.E)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\gunsur2.zip",
+            "label": "Q 枪下游魂 2_ 生化危机 代号 - 维罗尼卡 (世界版, BHF2 版本.E)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\18wheelr.zip",
+            "label": "1 18 轮大卡车 (豪华版, 修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\alienfnt.zip",
+            "label": "Y 异形前线 (修正版 T)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\asndynmt.zip",
+            "label": "H 火爆刑事EX",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ausfache.zip",
+            "label": "D 电光战记 Ausf. Achse (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\azumanga.zip",
+            "label": "A 阿滋漫画大王 - 泡泡龙 (GDL-0018)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\bdrdown.zip",
+            "label": "P 破镜怒潮 (修正版 A) (GDL-0023A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\cfield.zip",
+            "label": "H 混沌时空 (日版) (GDL-0025)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\chocomk.zip",
+            "label": "L 立体对战方块 (修正版 A) (GDL-0014A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\cleoftp.zip",
+            "label": "A 埃及艳后宝石方块 加强版 (GDL-0012)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\crzytaxi.zip",
+            "label": "F 疯狂出租车",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\csmash.zip",
+            "label": "L 立体壁球 (修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\cspike.zip",
+            "label": "J 机枪神兵",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\cvsgd.zip",
+            "label": "K 卡普空 对 SNK 千禧格斗 2000 Pro (日版) (GDL-0004)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\doa2m.zip",
+            "label": "S 死或生 2 千禧版",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggram2.zip",
+            "label": "Q 全日本职业摔角 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggx.zip",
+            "label": "Z 罪恶装备 X",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggxx.zip",
+            "label": "Z 罪恶装备 XX (GDL-0011)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggxxac.zip",
+            "label": "Z 罪恶装备 XX 重度核心 (日版) (GDL-0041)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggxxrl.zip",
+            "label": "Z 罪恶装备 XX #重装上阵 (日版, 修正版 A) (GDL-0019A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ggxxsla.zip",
+            "label": "Z 罪恶装备 XX 斩 (日版, 修正版 A) (GDL-0033A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\gram2000.zip",
+            "label": "Q 全日本职业摔角 2000",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\gundmgd.zip",
+            "label": "J 机动战士高达_ 联邦对吉翁 (GDL-0001)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\gundmxgd.zip",
+            "label": "J 机动战士高达_ 联邦对吉翁 DX (美版, 日版) (GDL-0006)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\gwing2.zip",
+            "label": "L 雷鸟之翼 2",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\hmgeo.zip",
+            "label": "Z 重金属格斗游技 (修正版 B)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\jambo.zip",
+            "label": "C 丛林狩猎之旅 (修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\jingystm.zip",
+            "label": "R 仁义风暴 (日版) (GDL-0037)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\karous.zip",
+            "label": "Y 羽 (日版) (GDL-0040)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\kurucham.zip",
+            "label": "G 咕噜咕噜变色龙 (日版) (GDL-0034)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\mbaa.zip",
+            "label": "Y 月姬格斗逝血之战再临 A版 (日版, 修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\meltyb.zip",
+            "label": "Y 月姬格斗战斗的装饰乐曲 B2版 (日版) (GDL-0039A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\meltybld.zip",
+            "label": "Y 月姬格斗战斗的装饰乐曲 A版 (日版) (GDL-0028C)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\moeru.zip",
+            "label": "M 萌芽赌场 (日版) (GDL-0013)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\monkeyba.zip",
+            "label": "H 猴子球 (GDS-0008)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\mushi2k5.zip",
+            "label": "J 甲虫王者2005 首版 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\mvsc2.zip",
+            "label": "M 漫画英雄 对 卡普空 2 - 新英雄时代 (海外版, 韩版, 修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\otrigger.zip",
+            "label": "S 神枪狙击手",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\pjustic.zip",
+            "label": "R 燃烧吧正义学园 (修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\pstone.zip",
+            "label": "N 能量宝石",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\pstone2.zip",
+            "label": "N 能量宝石 2",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\puyoda.zip",
+            "label": "P 噗呦噗呦! (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\puyofev.zip",
+            "label": "K 狂热噗呦噗呦 (世界版) (GDS-0034)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\qmegamis.zip",
+            "label": "W 问答魔法学园",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\quizqgd.zip",
+            "label": "W 问答手机 Q 模式 (GDL-0017)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\radirgyn.zip",
+            "label": "D 电波少女诺亚 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\rhytngk.zip",
+            "label": "J 节奏天国 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\senko.zip",
+            "label": "X 旋光之轮舞 新版 (日版, 修正版 A) (GDL-0030A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\senkosp.zip",
+            "label": "X 旋光之轮舞 特别版 (海外版, 日版) (GDL-0038)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\sfz3ugd.zip",
+            "label": "S 少年街霸 3 Upper (日版) (GDL-0002)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\sgtetris.zip",
+            "label": "S 世嘉俄罗斯方块",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\shikgam2.zip",
+            "label": "S 式神之城 II (GDL-0021)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\shootopl.zip",
+            "label": "H 火力撞球",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\sl2007.zip",
+            "label": "R 热爱射击2007 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\slasho.zip",
+            "label": "H 豪斩",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\spawn.zip",
+            "label": "S 闪灵悍将 (修正版 B)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\spkrbtl.zip",
+            "label": "Z 致命一击 (GDS-0005)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\sprtjam.zip",
+            "label": "T 体育嘉年华 (GDS-0003)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ss2005.zip",
+            "label": "C 超级上海 2005 (日版, 修正版 A) (GDL-0031A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\starseek.zip",
+            "label": "X 心跳不止 - 偶像明星 (GDL-0005)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\tetkiwam.zip",
+            "label": "E 俄罗斯方块 (日版) (GDL-0020)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\toyfight.zip",
+            "label": "W 玩具机器人",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\trizeal.zip",
+            "label": "R 热爱射击 (日版) (GDL-0026)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\vathlete.zip",
+            "label": "X 虚拟田径运动会 (GDS-0019)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\virnba.zip",
+            "label": "V VR 篮球 NBA (美版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\vonot.zip",
+            "label": "D 电脑战机 - 神剧七巧板 M.S.B.S. Ver5.665 2000 版",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\vs2_2k.zip",
+            "label": "V VR 射手 2 Ver. 2000 (修正版 C)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\vtennis2.zip",
+            "label": "V VR 网球 2 _ 网球运动 2 (修正版 A) (GDS-0015A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\wldkicks.zip",
+            "label": "T 踢上足球世界 (世界版, WK2 版本.A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\wrungp.zip",
+            "label": "G GP 水上摩托大奖赛",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\wwfroyal.zip",
+            "label": "W WWF 皇家摔角",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\zerogu2.zip",
+            "label": "L 零式枪手 2",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\zombrvn.zip",
+            "label": "J 僵尸复仇 (修正版 A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\cvs2.zip",
+            "label": "K 卡普空 对 SNK 2 千禧格斗 2001 (美版) (GDL-0008)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\undefeat.zip",
+            "label": "T 天翔铁骑 (日版) (GDL-0035)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\mamonoro.zip",
+            "label": "B 被诅咒的守君 (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\illvelo.zip",
+            "label": "B 病态空间 (Illmatic Envelope) (日版)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\ikaruga.zip",
+            "label": "B 斑鸠 (GDL-0010)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        },
+        {
+            "path": "D:\\naomi\\trgheart.zip",
+            "label": "B 兵器少女艾格洁莉卡 A版 (日版) (GDL-0036A)",
+            "core_path": "DETECT",
+            "core_name": "DETECT",
+            "crc32": "DETECT",
+            "db_name": "naomi"
+        }
+    ]
+}

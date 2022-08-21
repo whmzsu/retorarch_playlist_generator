@@ -3,9 +3,10 @@ import os
 import shutil
 import csv
 
-thumbpath = r"F:\retro\pfba-fbneo-media\mixrbv2-cn"
+thumbpath_ori = r"F:\retro\FBA-1.0.3\thumbnails\FBA\Named_Snaps\titles"
+thumbpath_dest = r"F:\retro\FBA-1.0.3\thumbnails\FBA\Named_Snaps\titles_cn"
 
-with open("mame-list-cn.csv", mode="r", encoding="utf-8-sig") as f:
+with open("mame_0820.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:
@@ -27,7 +28,7 @@ for rom in roms:
         gamename = gamename.replace(i, '_')
         label = label.replace(i, '_')
     try:
-        shutil.move(os.path.join(thumbpath, gamename+".png"),
-                    os.path.join(thumbpath, label+".png"))
+        shutil.copy(os.path.join(thumbpath_ori, gamename+".png"),
+                    os.path.join(thumbpath_dest, label+".png"))
     except FileNotFoundError:
-        print(os.path.join(thumbpath, filebasename+".png"))
+        print(os.path.join(thumbpath_ori, filebasename+".png"))

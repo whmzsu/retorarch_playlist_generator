@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<gameList xmlns:xsi="make by G.R.H">
+	<game>
+		<path>./gunsur2j.zip</path>
+		<name>Q 枪下游魂 2: 生化危机 代号 - 维罗尼卡 (日版, BHF1 版本.E)</name>
+		<image>./images/gunsur2j.png</image>
+		<video>./images/gunsur2j.mp4</video>
+	</game>
+	<game>
+		<path>./gunsur2.zip</path>
+		<name>Q 枪下游魂 2: 生化危机 代号 - 维罗尼卡 (世界版, BHF2 版本.E)</name>
+		<image>./images/gunsur2.png</image>
+		<video>./images/gunsur2.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20200117T213105</lastplayed>
+		<gametime>116</gametime>
+	</game>
+	<game>
+		<path>./18wheelr.zip</path>
+		<name>1 18 轮大卡车 (豪华版, 修正版 A)</name>
+		<image>./images/18wheelr.png</image>
+		<video>./images/18wheelr.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20201012T230621</lastplayed>
+		<gametime>148</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./alienfnt.zip</path>
+		<name>Y 异形前线 (修正版 T)</name>
+		<image>./images/alienfnt.png</image>
+		<video>./images/alienfnt.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./asndynmt.zip</path>
+		<name>H 火爆刑事EX</name>
+		<image>./images/asndynmt.png</image>
+		<video>./images/asndynmt.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ausfache.zip</path>
+		<name>D 电光战记 Ausf. Achse (日版)</name>
+		<image>./images/ausfache.png</image>
+		<video>./images/ausfache.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./azumanga.zip</path>
+		<name>A 阿滋漫画大王 - 泡泡龙 (GDL-0018)</name>
+		<image>./images/azumanga.png</image>
+		<video>./images/azumanga.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./bdrdown.zip</path>
+		<name>P 破镜怒潮 (修正版 A) (GDL-0023A)</name>
+		<image>./images/bdrdown.png</image>
+		<video>./images/bdrdown.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./cfield.zip</path>
+		<name>H 混沌时空 (日版) (GDL-0025)</name>
+		<image>./images/cfield.png</image>
+		<video>./images/cfield.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./chocomk.zip</path>
+		<name>L 立体对战方块 (修正版 A) (GDL-0014A)</name>
+		<image>./images/chocomk.png</image>
+		<video>./images/chocomk.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./cleoftp.zip</path>
+		<name>A 埃及艳后宝石方块 加强版 (GDL-0012)</name>
+		<image>./images/cleoftp.png</image>
+		<video>./images/cleoftp.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./crzytaxi.zip</path>
+		<name>F 疯狂出租车</name>
+		<image>./images/crzytaxi.png</image>
+		<video>./images/crzytaxi.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./csmash.zip</path>
+		<name>L 立体壁球 (修正版 A)</name>
+		<image>./images/csmash.png</image>
+		<video>./images/csmash.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./cspike.zip</path>
+		<name>J 机枪神兵</name>
+		<image>./images/cspike.png</image>
+		<video>./images/cspike.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./cvsgd.zip</path>
+		<name>K 卡普空 对 SNK 千禧格斗 2000 Pro (日版) (GDL-0004)</name>
+		<image>./images/cvsgd.png</image>
+		<video>./images/cvsgd.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./doa2m.zip</path>
+		<name>S 死或生 2 千禧版</name>
+		<image>./images/doa2m.png</image>
+		<video>./images/doa2m.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggram2.zip</path>
+		<name>Q 全日本职业摔角 (日版)</name>
+		<image>./images/ggram2.png</image>
+		<video>./images/ggram2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggx.zip</path>
+		<name>Z 罪恶装备 X</name>
+		<image>./images/ggx.png</image>
+		<video>./images/ggx.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggxx.zip</path>
+		<name>Z 罪恶装备 XX (GDL-0011)</name>
+		<image>./images/ggxx.png</image>
+		<video>./images/ggxx.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggxxac.zip</path>
+		<name>Z 罪恶装备 XX 重度核心 (日版) (GDL-0041)</name>
+		<image>./images/ggxxac.png</image>
+		<video>./images/ggxxac.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggxxrl.zip</path>
+		<name>Z 罪恶装备 XX #重装上阵 (日版, 修正版 A) (GDL-0019A)</name>
+		<image>./images/ggxxrl.png</image>
+		<video>./images/ggxxrl.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ggxxsla.zip</path>
+		<name>Z 罪恶装备 XX 斩 (日版, 修正版 A) (GDL-0033A)</name>
+		<image>./images/ggxxsla.png</image>
+		<video>./images/ggxxsla.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./gram2000.zip</path>
+		<name>Q 全日本职业摔角 2000</name>
+		<image>./images/gram2000.png</image>
+		<video>./images/gram2000.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./gundmgd.zip</path>
+		<name>J 机动战士高达: 联邦对吉翁 (GDL-0001)</name>
+		<image>./images/gundmgd.png</image>
+		<video>./images/gundmgd.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./gundmxgd.zip</path>
+		<name>J 机动战士高达: 联邦对吉翁 DX (美版, 日版) (GDL-0006)</name>
+		<image>./images/gundmxgd.png</image>
+		<video>./images/gundmxgd.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./gwing2.zip</path>
+		<name>L 雷鸟之翼 2</name>
+		<image>./images/gwing2.png</image>
+		<video>./images/gwing2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./hmgeo.zip</path>
+		<name>Z 重金属格斗游技 (修正版 B)</name>
+		<image>./images/hmgeo.png</image>
+		<video>./images/hmgeo.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./jambo.zip</path>
+		<name>C 丛林狩猎之旅 (修正版 A)</name>
+		<image>./images/jambo.png</image>
+		<video>./images/jambo.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./jingystm.zip</path>
+		<name>R 仁义风暴 (日版) (GDL-0037)</name>
+		<image>./images/jingystm.png</image>
+		<video>./images/jingystm.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./karous.zip</path>
+		<name>Y 羽 (日版) (GDL-0040)</name>
+		<image>./images/karous.png</image>
+		<video>./images/karous.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./kurucham.zip</path>
+		<name>G 咕噜咕噜变色龙 (日版) (GDL-0034)</name>
+		<image>./images/kurucham.png</image>
+		<video>./images/kurucham.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./mbaa.zip</path>
+		<name>Y 月姬格斗逝血之战再临 A版 (日版, 修正版 A)</name>
+		<image>./images/mbaa.png</image>
+		<video>./images/mbaa.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./meltyb.zip</path>
+		<name>Y 月姬格斗战斗的装饰乐曲 B2版 (日版) (GDL-0039A)</name>
+		<image>./images/meltyb.png</image>
+		<video>./images/meltyb.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./meltybld.zip</path>
+		<name>Y 月姬格斗战斗的装饰乐曲 A版 (日版) (GDL-0028C)</name>
+		<image>./images/meltybld.png</image>
+		<video>./images/meltybld.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./moeru.zip</path>
+		<name>M 萌芽赌场 (日版) (GDL-0013)</name>
+		<image>./images/moeru.png</image>
+		<video>./images/moeru.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./monkeyba.zip</path>
+		<name>H 猴子球 (GDS-0008)</name>
+		<image>./images/monkeyba.png</image>
+		<video>./images/monkeyba.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./mushi2k5.zip</path>
+		<name>J 甲虫王者2005 首版 (日版)</name>
+		<image>./images/mushi2k5.png</image>
+		<video>./images/mushi2k5.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./mvsc2.zip</path>
+		<name>M 漫画英雄 对 卡普空 2 - 新英雄时代 (海外版, 韩版, 修正版 A)</name>
+		<image>./images/mvsc2.png</image>
+		<video>./images/mvsc2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./otrigger.zip</path>
+		<name>S 神枪狙击手</name>
+		<image>./images/otrigger.png</image>
+		<video>./images/otrigger.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./pjustic.zip</path>
+		<name>R 燃烧吧正义学园 (修正版 A)</name>
+		<image>./images/pjustic.png</image>
+		<video>./images/pjustic.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./pstone.zip</path>
+		<name>N 能量宝石</name>
+		<image>./images/pstone.png</image>
+		<video>./images/pstone.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./pstone2.zip</path>
+		<name>N 能量宝石 2</name>
+		<image>./images/pstone2.png</image>
+		<video>./images/pstone2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./puyoda.zip</path>
+		<name>P 噗呦噗呦! (日版)</name>
+		<image>./images/puyoda.png</image>
+		<video>./images/puyoda.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./puyofev.zip</path>
+		<name>K 狂热噗呦噗呦 (世界版) (GDS-0034)</name>
+		<image>./images/puyofev.png</image>
+		<video>./images/puyofev.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./qmegamis.zip</path>
+		<name>W 问答魔法学园</name>
+		<image>./images/qmegamis.png</image>
+		<video>./images/qmegamis.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./quizqgd.zip</path>
+		<name>W 问答手机 Q 模式 (GDL-0017)</name>
+		<image>./images/quizqgd.png</image>
+		<video>./images/quizqgd.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./radirgyn.zip</path>
+		<name>D 电波少女诺亚 (日版)</name>
+		<image>./images/radirgyn.png</image>
+		<video>./images/radirgyn.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./rhytngk.zip</path>
+		<name>J 节奏天国 (日版)</name>
+		<image>./images/rhytngk.png</image>
+		<video>./images/rhytngk.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./senko.zip</path>
+		<name>X 旋光之轮舞 新版 (日版, 修正版 A) (GDL-0030A)</name>
+		<image>./images/senko.png</image>
+		<video>./images/senko.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./senkosp.zip</path>
+		<name>X 旋光之轮舞 特别版 (海外版, 日版) (GDL-0038)</name>
+		<image>./images/senkosp.png</image>
+		<video>./images/senkosp.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./sfz3ugd.zip</path>
+		<name>S 少年街霸 3 Upper (日版) (GDL-0002)</name>
+		<image>./images/sfz3ugd.png</image>
+		<video>./images/sfz3ugd.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./sgtetris.zip</path>
+		<name>S 世嘉俄罗斯方块</name>
+		<image>./images/sgtetris.png</image>
+		<video>./images/sgtetris.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./shikgam2.zip</path>
+		<name>S 式神之城 II (GDL-0021)</name>
+		<image>./images/shikgam2.png</image>
+		<video>./images/shikgam2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./shootopl.zip</path>
+		<name>H 火力撞球</name>
+		<image>./images/shootopl.png</image>
+		<video>./images/shootopl.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./sl2007.zip</path>
+		<name>R 热爱射击2007 (日版)</name>
+		<image>./images/sl2007.png</image>
+		<video>./images/sl2007.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./slasho.zip</path>
+		<name>H 豪斩</name>
+		<image>./images/slasho.png</image>
+		<video>./images/slasho.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20201012T230816</lastplayed>
+		<gametime>75</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./spawn.zip</path>
+		<name>S 闪灵悍将 (修正版 B)</name>
+		<image>./images/spawn.png</image>
+		<video>./images/spawn.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./spkrbtl.zip</path>
+		<name>Z 致命一击 (GDS-0005)</name>
+		<image>./images/spkrbtl.png</image>
+		<video>./images/spkrbtl.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./sprtjam.zip</path>
+		<name>T 体育嘉年华 (GDS-0003)</name>
+		<image>./images/sprtjam.png</image>
+		<video>./images/sprtjam.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ss2005.zip</path>
+		<name>C 超级上海 2005 (日版, 修正版 A) (GDL-0031A)</name>
+		<image>./images/ss2005.png</image>
+		<video>./images/ss2005.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./starseek.zip</path>
+		<name>X 心跳不止 - 偶像明星 (GDL-0005)</name>
+		<image>./images/starseek.png</image>
+		<video>./images/starseek.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./tetkiwam.zip</path>
+		<name>E 俄罗斯方块 (日版) (GDL-0020)</name>
+		<image>./images/tetkiwam.png</image>
+		<video>./images/tetkiwam.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./toyfight.zip</path>
+		<name>W 玩具机器人</name>
+		<image>./images/toyfight.png</image>
+		<video>./images/toyfight.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./trizeal.zip</path>
+		<name>R 热爱射击 (日版) (GDL-0026)</name>
+		<image>./images/trizeal.png</image>
+		<video>./images/trizeal.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./vathlete.zip</path>
+		<name>X 虚拟田径运动会 (GDS-0019)</name>
+		<image>./images/vathlete.png</image>
+		<video>./images/vathlete.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./virnba.zip</path>
+		<name>V VR 篮球 NBA (美版)</name>
+		<image>./images/virnba.png</image>
+		<video>./images/virnba.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./vonot.zip</path>
+		<name>D 电脑战机 - 神剧七巧板 M.S.B.S. Ver5.665 2000 版</name>
+		<image>./images/vonot.png</image>
+		<video>./images/vonot.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./vs2_2k.zip</path>
+		<name>V VR 射手 2 Ver. 2000 (修正版 C)</name>
+		<image>./images/vs2_2k.png</image>
+		<video>./images/vs2_2k.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./vtennis2.zip</path>
+		<name>V VR 网球 2 / 网球运动 2 (修正版 A) (GDS-0015A)</name>
+		<image>./images/vtennis2.png</image>
+		<video>./images/vtennis2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./wldkicks.zip</path>
+		<name>T 踢上足球世界 (世界版, WK2 版本.A)</name>
+		<image>./images/wldkicks.png</image>
+		<video>./images/wldkicks.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./wrungp.zip</path>
+		<name>G GP 水上摩托大奖赛</name>
+		<image>./images/wrungp.png</image>
+		<video>./images/wrungp.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./wwfroyal.zip</path>
+		<name>W WWF 皇家摔角</name>
+		<image>./images/wwfroyal.png</image>
+		<video>./images/wwfroyal.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./zerogu2.zip</path>
+		<name>L 零式枪手 2</name>
+		<image>./images/zerogu2.png</image>
+		<video>./images/zerogu2.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./zombrvn.zip</path>
+		<name>J 僵尸复仇 (修正版 A)</name>
+		<image>./images/zombrvn.png</image>
+		<video>./images/zombrvn.mp4</video>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./cvs2.zip</path>
+		<name>K 卡普空 对 SNK 2 千禧格斗 2001 (美版) (GDL-0008)</name>
+		<image>./images/cvs2.png</image>
+		<video>./images/cvs2.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20201018T195109</lastplayed>
+		<gametime>95</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./undefeat.zip</path>
+		<name>T 天翔铁骑 (日版) (GDL-0035)</name>
+		<image>./images/undefeat.png</image>
+		<video>./images/undefeat.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20210315T110555</lastplayed>
+		<gametime>232</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./mamonoro.zip</path>
+		<name>B 被诅咒的守君 (日版)</name>
+		<playcount>1</playcount>
+		<lastplayed>20220529T135202</lastplayed>
+	</game>
+	<game>
+		<path>./illvelo.zip</path>
+		<name>B 病态空间 (Illmatic Envelope) (日版)</name>
+		<playcount>1</playcount>
+		<lastplayed>20220529T135218</lastplayed>
+	</game>
+	<game>
+		<path>./ikaruga.zip</path>
+		<name>B 斑鸠 (GDL-0010)</name>
+		<playcount>1</playcount>
+		<lastplayed>20220529T135232</lastplayed>
+	</game>
+	<game>
+		<path>./trgheart.zip</path>
+		<name>B 兵器少女艾格洁莉卡 A版 (日版) (GDL-0036A)</name>
+		<playcount>1</playcount>
+		<lastplayed>20220529T135250</lastplayed>
+	</game>
+</gameList>
