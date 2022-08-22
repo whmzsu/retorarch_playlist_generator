@@ -1,3 +1,4 @@
+# convert emulationstation gamelist.xml and pic to retroarch
 from xml.dom.minidom import parse
 import os
 import shutil
