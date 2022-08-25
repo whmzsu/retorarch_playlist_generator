@@ -20,14 +20,14 @@ fixdbname = easygui.enterbox(
 choice = easygui.choicebox("请选择你的游戏平台", "选择你的游戏平台", [
                            "Windows", "非Windows,Not Windows，比如Linux，Android，Switch等等"])
 
-with open("mame_0820.csv", mode="r", encoding="utf-8-sig") as f:
+with open(r"\database\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:
         gamedict[row['file']] = row['name']
 
 
-dom = parse(r'gamelist.xml')
+dom = parse(r'\database\gamelist.xml')
 data = dom.documentElement
 roms = data.getElementsByTagName('game')
 gamedict2 = {}
@@ -65,7 +65,7 @@ for root, dirs, files in os.walk(romspathdir):
                 label = gamedict2[filebasename]
             else:
                 label = filebasename
-            for i in ["<", ">", ":", '"', "'", "/", "\\", "|", "?", "*", "&"]:
+            for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
                 label = label.replace(i, '_')
             list1.append({"path": rom_path,
                           "label": label, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
