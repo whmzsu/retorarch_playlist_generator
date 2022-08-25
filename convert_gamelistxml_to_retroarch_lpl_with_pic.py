@@ -22,6 +22,7 @@ choice = easygui.choicebox("请选择你的游戏平台", "选择你的游戏平
 
 picpath = easygui.diropenbox(
     "Pic  png file input dir", "Choose pic or media or image  dir,选择游戏图片所在文件目录,必选")
+    
 if not db_name:
     db_path=os.path.dirname(gamelistfile)
     db_name=os.path.basename(db_path)
