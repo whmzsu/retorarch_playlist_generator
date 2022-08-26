@@ -25,11 +25,10 @@ for rom in roms:
     else:
         label = realgamename
     for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
-        #gamename = gamename.replace(i, '_')
+        gamename = gamename.replace(i, '_')
         realgamename = realgamename.replace(i, '_')
 
     for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`","&"]:
-        #gamename = gamename.replace(i, '_')
         label = label.replace(i, '_')
     try:
         shutil.move(os.path.join(thumbpath_ori, realgamename+".png"),
