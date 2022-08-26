@@ -33,6 +33,7 @@ for rom in roms:
     try:
         shutil.move(os.path.join(thumbpath_ori, realgamename+".png"),
                     os.path.join(thumbpath_dest, label+".png"))
+        #shutil.move(os.path.join(thumbpath_ori, gamename+".png"),os.path.join(thumbpath_dest, label+".png"))
     except FileNotFoundError:
         print(os.path.join(thumbpath_ori, realgamename+".png"))
         #print(os.path.join(thumbpath_ori, filebasename+".png"))
