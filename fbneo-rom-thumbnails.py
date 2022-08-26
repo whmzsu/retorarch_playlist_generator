@@ -25,15 +25,15 @@ for rom in roms:
     else:
         label = realgamename
     for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
-        #gamename = gamename.replace(i, '_')
+        gamename = gamename.replace(i, '_')
         realgamename = realgamename.replace(i, '_')
 
     for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`","&"]:
-        #gamename = gamename.replace(i, '_')
         label = label.replace(i, '_')
     try:
         shutil.copy(os.path.join(thumbpath_ori, realgamename+".png"),
                     os.path.join(thumbpath_dest, label+".png"))
+        #shutil.move(os.path.join(thumbpath_ori, gamename+".png"),os.path.join(thumbpath_dest, label+".png"))
     except FileNotFoundError:
         print(os.path.join(thumbpath_ori, realgamename+".png"))
         #print(os.path.join(thumbpath_ori, filebasename+".png"))
