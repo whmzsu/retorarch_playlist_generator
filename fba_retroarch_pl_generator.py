@@ -20,14 +20,14 @@ fixdbname = easygui.enterbox(
 choice = easygui.choicebox("请选择你的游戏平台", "选择你的游戏平台", [
                            "Windows", "非Windows,Not Windows，比如Linux，Android，Switch等等"])
 
-with open(r"\database\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
+with open(r"database\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:
         gamedict[row['file']] = row['name']
 
 
-dom = parse(r'\database\gamelist.xml')
+dom = parse(r'database\gamelist.xml')
 data = dom.documentElement
 roms = data.getElementsByTagName('game')
 gamedict2 = {}

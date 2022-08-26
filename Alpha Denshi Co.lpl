@@ -1,0 +1,227 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so",
+  "default_core_name": "Arcade (FinalBurn Neo)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/storage/1111-1111/roms/arcade/bublpong.zip",
+      "label": "Bubble Pong Pong",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crush.zip",
+      "label": "Crush Roller (Kural Samno)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crush2.zip",
+      "label": "Crush Roller (Kural Esco - bootleg?)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crush4.zip",
+      "label": "Crush Roller (Kural - bootleg?)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crush5.zip",
+      "label": "Crush Roller (Kural TWT)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crushbl.zip",
+      "label": "Crush Roller (bootleg set 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crushbl2.zip",
+      "label": "Crush Roller (bootleg set 2) [Bootleg]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crushbl3.zip",
+      "label": "Crush Roller (bootleg set 3) [Bootleg]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/crushs.zip",
+      "label": "Crush Roller (Sidam bootleg)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/dorachan.zip",
+      "label": "Dora-chan (Japan) [No sound]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/gangwars.zip",
+      "label": "Gang Wars",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/gangwarsb.zip",
+      "label": "Gang Wars (bootleg) [Bootleg]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/gangwarsj.zip",
+      "label": "Gang Wars (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/gangwarsu.zip",
+      "label": "Gang Wars (US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/ghunters.zip",
+      "label": "Gang Hunter / Dead Angle (Spain)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/korosuke.zip",
+      "label": "Korosuke Roller",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/kyros.zip",
+      "label": "Kyros",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/kyrosj.zip",
+      "label": "Kyros No Yakata (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/maketrax.zip",
+      "label": "Make Trax (set 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/maketrxb.zip",
+      "label": "Make Trax (set 2)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/mbrush.zip",
+      "label": "Magic Brush",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/missb2.zip",
+      "label": "Miss Bubble II",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/paintrlr.zip",
+      "label": "Paint Roller",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/sbasebalj.zip",
+      "label": "Super Champion Baseball (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/skyadvnt.zip",
+      "label": "Sky Adventure (World)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/skyadvntj.zip",
+      "label": "Sky Adventure (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    },
+    {
+      "path": "/storage/1111-1111/roms/arcade/sstingry.zip",
+      "label": "Super Stingray (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DETECT",
+      "db_name": "FBA.lpl"
+    }
+  ]
+}

@@ -3,8 +3,8 @@ import os
 import shutil
 import csv
 
-thumbpath_ori = r"D:\trans\0816\FBNeo - Arcade Games\thumbnails\FBNeo - Arcade Games\Named_Snaps"
-thumbpath_dest = r"D:\trans\0816\FBNeo - Arcade Games\thumbnails\FBNeo - Arcade Games\Named_Snaps_cn"
+thumbpath_ori = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Titles"
+thumbpath_dest = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Titles_cn"
 
 with open(".\\database\\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
@@ -32,7 +32,7 @@ for rom in roms:
         #gamename = gamename.replace(i, '_')
         label = label.replace(i, '_')
     try:
-        shutil.move(os.path.join(thumbpath_ori, realgamename+".png"),
+        shutil.copy(os.path.join(thumbpath_ori, realgamename+".png"),
                     os.path.join(thumbpath_dest, label+".png"))
     except FileNotFoundError:
         print(os.path.join(thumbpath_ori, realgamename+".png"))
