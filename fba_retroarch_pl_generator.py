@@ -20,7 +20,7 @@ fixdbname = easygui.enterbox(
 choice = easygui.choicebox("请选择你的游戏平台", "选择你的游戏平台", [
                            "Windows", "非Windows,Not Windows，比如Linux，Android，Switch等等"])
 
-with open(r"database\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
+with open(r"database\gamelist_catalog_full.csv", mode="r", encoding="utf8") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:
@@ -62,8 +62,10 @@ for root, dirs, files in os.walk(romspathdir):
                 label = gamedict[filebasename]
             elif filebasename in gamedict2.keys():
                 label = gamedict2[filebasename]
+                print(label)
             else:
                 label = filebasename
+                print(label)
             for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
                 label = label.replace(i, '_')
             list1.append({"path": rom_path,

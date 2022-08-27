@@ -3,10 +3,10 @@ import os
 import shutil
 import csv
 
-thumbpath_ori = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Titles"
-thumbpath_dest = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Titles_cn"
+thumbpath_ori = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Snaps"
+thumbpath_dest = r"F:\retro\FBA-1.0.3\FBNeo 1.0.3-zip\thumbnails\FBNeo - Arcade Games\Named_Snaps_cn"
 
-with open(".\\database\\gamelist_merge.csv", mode="r", encoding="utf-8-sig") as f:
+with open(".\\database\\gamelist_catalog_full.csv", mode="r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     gamedict = {}
     for row in reader:
