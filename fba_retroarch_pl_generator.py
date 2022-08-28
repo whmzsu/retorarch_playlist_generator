@@ -68,9 +68,21 @@ for root, dirs, files in os.walk(romspathdir):
                 print(label)
             for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
                 label = label.replace(i, '_')
-            list1.append({"path": rom_path,
-                          "label": label, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
-        dict1 = {"items": list1}
+            list1.append({"path": rom_path,"label": label, "core_path": "DETECT", "core_name": "Arcade (FinalBurn Neo)", "crc32": "DETECT", "db_name": db_name})
+
+        #fbneo_core_path="/data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so"  
+        #fbneo_core_path="C:\\RetroArch-Win64\\cores\\fbneo_libretro.dll"
+        fbneo_core_path="S:\\Program Files\\WindowsApps\\3932Gamr1369.8297F7841FFD_22.7.26.70_x64__9crtx48xg4zqy\\cores\\fbneo_libretro.dll"
+
+        dict1["version"]= "1.4"
+        dict1["default_core_path"]=  fbneo_core_path
+        dict1["default_core_name"]=  "Arcade (FinalBurn Neo)"
+        dict1["label_display_mode"]=  0
+        dict1["right_thumbnail_mode"]=  0
+        dict1["left_thumbnail_mode"]=  0
+        dict1["sort_mode"]=  0        
+        dict1["items"] = list1
+
         content = json.dumps(dict1, indent=4, ensure_ascii=False)
         playlist = os.path.join(lplpathdir, os.path.basename(root))+".lpl"
         with open(playlist, "w", encoding='utf8') as f:
