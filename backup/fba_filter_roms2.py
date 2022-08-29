@@ -1,7 +1,7 @@
 import os
 import csv
 from xml.dom.minidom import parse
-# 根据文件名-生成playlist-同时参考2个文件，来正确生成英文名称或者中文名称，中文名称优先
+# 根据文件名-同时参考2个文件，生成中英对照文件，添加游戏描述
 
 romspathdir = r"D:\trans\0816\arcade"
 

@@ -11,7 +11,7 @@ with open('database\\gba_list.csv','r',encoding='utf-8') as file:
         line.insert(1,files[i])
         i=i+1
         print(line)
-        with open('database\\gba_list_merge.csv','a',encoding='utf-8',newline='') as newfile:
+        with open('database\\gba_list_merge2.csv','a',encoding='utf-8',newline='') as newfile:
             csvwriter=csv.writer(newfile)
             csvwriter.writerow(line)
         

@@ -3,6 +3,8 @@ import os
 import shutil
 import csv
 
+#根据中英文对照文件，生成完整的thumbnail
+
 thumbpath_ori = r"F:\retro\FBA-1.0.3\thumbnails\FBA_ori\Named_Titles"
 thumbpath_dest = r"F:\retro\FBA-1.0.3\thumbnails\FBA_ori\Named_Titles_cn"
 

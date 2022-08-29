@@ -8,9 +8,10 @@ with open("list.txt","r",encoding='utf8') as f:
         i.insert(0,i[0][:4])
         i[1]=i[1][7:]
         print(i)
+        inew=[*map(lambda x:x.strip(), i)]
         with open('list.csv','a',newline="",encoding='utf8') as wcsv:
             file=csv.writer(wcsv)
-            file.writerow(i)
+            file.writerow(inew)
             
 
         
