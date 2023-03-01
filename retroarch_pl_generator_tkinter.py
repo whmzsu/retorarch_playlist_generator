@@ -32,7 +32,7 @@ def get(check1, entry_rom_path, entry_dest_playlist, entry_prefix, entry_db_name
                         rom_path = os.path.join(prefix_real, file)
                     else:
                         rom_path = os.path.join(root, file)
-                    if choice == 1:
+                    if choice:
                         rom_path = rom_path.replace("/", "\\")
                     else:
                         rom_path = rom_path.replace("\\", "/")
@@ -69,7 +69,7 @@ def main():
     path1 = tk.StringVar()
     path2 = tk.StringVar()
 
-    check1 = tk.BooleanVar(value=1)
+    check1 = tk.BooleanVar(value=True)
 
     frame1 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)
     frame2 = tk.Frame(window, highlightbackground="blue", highlightthickness=1)

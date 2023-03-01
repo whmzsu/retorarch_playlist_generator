@@ -1,0 +1,590 @@
+game: 300: March to Glory
+game: 50 Cent: Bulletproof: G Unit Edition
+game: 7 Wonders of the Ancient World
+game: Ace Combat: Joint Assault
+game: Ace Combat X: Skies of Deception
+game: Adventures to Go!
+game: Aedis Eclipse: Generation of Chaos
+game: After Burner: Black Falcon
+game: Air Conflicts: Aces of World War II
+game: Alien Syndrome
+game: Aliens vs. Predator: Requiem
+game: Angus Hates Aliens
+game: Ape Academy 2
+game: Ape Escape Academy
+game: Ape Escape: On the Loose
+game: Ape Quest
+game: Archer Maclean's Mercury
+game: Armored Core: Last Raven Portable
+game: Armored Core: Silent Line Portable
+game: Armored Core 3: Portable
+game: Armored Core: Formula Front
+game: Army of Two: The 40th Day
+game: Asphalt: Urban GT 2
+game: Assassin's Creed: Bloodlines
+game: Astérix & Obélix XXL 2: Mission Wifix
+game: Astonishia Story
+game: Astro Boy: The Video Game
+game: ATV Offroad Fury Pro
+game: Avatar: The Last Airbender
+game: Bakugan Battle Brawlers: Defenders of the Core
+game: Battlezone
+game: B-Boy
+game: Beaterator
+game: Beats
+game: Bejeweled 2
+game: Ben 10: Alien Force: Vilgax Attacks
+game: Ben 10: Ultimate Alien Cosmic Destruction
+game: Ben 10: Alien Force
+game: Ben 10: Protector of Earth
+game: Beowulf: The Game
+game: BETA BLOC
+game: Black Rock Shooter: The Game
+game: BlazBlue: Calamity Trigger Portable
+game: BlazBlue: Continuum Shift II
+game: Blazing Souls: Accelate
+game: Bleach: Heat the Soul 2
+game: Bleach: Heat the Soul
+game: Blokus Portable: Steambot Championship
+game: Blood Bowl
+game: Bomberman
+game: Bomberman: Panic Bomber
+game: Bomberman Land
+game: Bounty Hounds
+game: Brandish: The Dark Revenant
+game: Brave Story: New Traveler
+game: Brooktown High
+game: Brothers in Arms: D-Day
+game: Bubble Bobble Evolution
+game: Burnout Dominator
+game: Burnout Legends
+game: Bust-a-Move Deluxe
+game: Cabela's African Safari
+game: Cabela's Dangerous Hunts: Ultimate Challenge
+game: Cabela's Legendary Adventures
+game: Cabela's North American Adventures
+game: Cake Mania: Baker's Challenge
+game: Call of Duty: Roads to Victory
+game: Carnage Heart: EXA
+game: Cars: Race-O-Rama
+game: Cars 2
+game: Cars
+game: Castlevania: The Dracula X Chronicles
+game: Chameleon
+game: Chili Con Carnage
+game: Cho Aniki Zero
+game: CID The Dummy
+game: Cladun: This is an RPG
+game: ClaDun x2
+game: Class of Heroes
+game: Class of Heroes 2
+game: Cloudy With a Chance of Meatballs
+game: Code Lyoko: Quest for Infinity
+game: Coded Arms: Contagion
+game: Coded Arms
+game: Colin McRae: DiRT 2
+game: Corpse Party
+game: Corpse Party: Book of Shadows
+game: Crash: Mind Over Mutant
+game: Crash of the Titans
+game: Crash Tag Team Racing
+game: Crazy Taxi: Fare Wars
+game: Creature Defense
+game: Crimson Gem Saga
+game: Crimson Room Reverse
+game: Crisis Core: Final Fantasy VII
+game: Crush
+game: The Cryptics
+game: Crystal Defenders
+game: Cube
+game: Dante's Inferno
+game: Dariusburst
+game: Darkstalkers Chronicle: The Chaos Tower
+game: Daxter
+game: Dead Head Fred
+game: Dead or Alive Paradise
+game: Dead to Rights: Reckoning
+game: Death Jr.
+game: Def Jam Fight for NY: The Takeover
+game: Desi Adda: Games of India
+game: Despicable Me: The Game
+game: Diabolik: The Original Sin
+game: Digimon Adventure
+game: Digimon World Re:Digitize
+game: Diner Dash: Sizzle and Serve
+game: Disgaea: Afternoon of Darkness
+game: Disgaea 2: Dark Hero Days
+game: Disgaea Infinite
+game: Dissidia 012: Final Fantasy
+game: Dissidia: Final Fantasy
+game: DJ Max Fever
+game: DJ Max Portable 3
+game: Don 2: The Game
+game: Dot Hack Link
+game: Downstream Panic!
+game: Dragonball Evolution
+game: Dragon Ball Z: Shin Budokai: Another Road
+game: Dragon Ball Z: Shin Budokai
+game: Dragon Ball Z: Tenkaichi Tag Team
+game: Dragon Quest & Final Fantasy in Itadaki Street Portable
+game: Dragon's Lair
+game: Dragoneer's Aria
+game: Driver 76
+game: DT Carnage
+game: Dungeon Explorer: Warrior Of The Ancient Arts
+game: Dungeon Maker: Hunting Ground
+game: Dungeon Maker II: The Hidden War
+game: Dungeon Seige II: Throne of Agony
+game: Dungeons & Dragons Tactics
+game: Dynasty Warriors
+game: Dynasty Warriors: Strikeforce
+game: Dynasty Warriors Vol. 2
+game: echochrome
+game: Echoshift
+game: Eiyuu Densetsu: Ao no Kiseki
+game: Elminage Original
+game: End of Serenity
+game: Eragon
+game: Every Extend Extra
+game: Everyday Shooter
+game: Exit
+game: Fading Shadows
+game: Family Guy Video Game!
+game: Fat Princess: Fistful of Cake
+game: Fate/Extra
+game: Fate/Unlimited Codes
+game: Field Commander
+game: Fight Night Round 3
+game: Final Fantasy
+game: Final Fantasy II
+game: Final Fantasy III
+game: Final Fantasy IV: The Complete Collection
+game: Final Fantasy Tactics: The War of the Lions
+game: Fired Up
+game: Fish Eyes Portable
+game: FlatOut: Head On
+game: flOw
+game: Frantix
+game: Free Runing
+game: Frogger: Helmet Chaos
+game: 007: From Russia with Love
+game: Full Auto 2: Battlelines
+game: Fullmetal Alchemist: Brotherhood
+game: G-Force
+game: GI Joe: The Rise of Cobra
+game: Gangs Of London
+game: Generation of Chaos
+game: Generation of Chaos: Pandora's Reflection
+game: Geronimo Stilton: Return to the Kingdom of Fantasy
+game: Ghost in the Shell: Stand Alone Complex
+game: Ghost Rider
+game: Ghostbusters : The Video Game
+game: Gitaroo Man Lives!
+game: Gladiator Begins
+game: God of War: Chains of Olympis
+game: God of War: Ghost of Sparta
+game: Gods Eater Burst
+game: Gradius Collection
+game: Gran Turismo
+game: Grand Knights History
+game: Grand Theft Auto: Chinatown Wars
+game: Grand Theft Auto: Liberty City Stories
+game: Grand Theft Auto: Vice City Stories
+game: GripShift
+game: Groovin' Blocks
+game: Growlanser: Wayfarer of Time
+game: GTI Club: Supermini Festa!
+game: Guilty Gear Judgement
+game: Guilty Gear XX #Reload
+game: Gun Showdown
+game: Gundam Assault Survive
+game: Gundam Battle Royale
+game: Gundam Battle Tactics
+game: Gungnir
+game: Gurumin: A Monstrous Adventure
+game: Hakuoki: Demon of the Fleeting Blossom
+game: Hakuoki: Warriors of the Shinsengumi
+game: Half-Minute Hero
+game: Hammerin' Hero
+game: Hard Rock Casino
+game: Harry Potter and the Goblet of Fire
+game: Harry Potter and the Half-Blood Prince
+game: Harry Potter and the Order of the Phoenix
+game: Harvest Moon: Boy & Girl
+game: Harvest Moon: Hero of Leaf Valley
+game: Harvey Birdman: Attorney at Law
+game: Heatseeker
+game: Hellboy: The Science of Evil
+game: Hexyz Force
+game: HOARD
+game: Hot Pixel
+game: Hot Shots Golf: Open Tee 2
+game: Hot Shots Golf: Open Tee
+game: Hot Shots Tennis: Get a Grip
+game: Hot Wheels: Ultimate Racing
+game: Hot Brain
+game: The Hustle: Detroit Streets
+game: I Am An Air Traffic Controller Airport Hero Tokyo
+game: The Idolmaster SP: Perfect Sun
+game: IL-2 Sturmovik: Birds Of Prey
+game: Impossible Mission
+game: Indiana Jones and the Staff of Kings
+game: Infected
+game: Innocent Life: A Futuristic Harvest Moon
+game: Iron Man
+game: Iron Man 2 The Videogame
+game: Jackass: The Game
+game: Jak and Daxter: The Lost Frontier
+game: James Cameron's Avatar: The Game
+game: Jeanne d'Arc
+game: Jikandia: The Timeless Land
+game: Juiced 2: Hot Import Nights
+game: Juiced: Eliminator
+game: Justice League Heroes
+game: Kameleon
+game: Kamen Rider: Chou Climax Heroes
+game: Kao Challengers
+game: KAZooK
+game: Kenka Bancho: Badass Rumble
+game: Kidou Senshi Gundam: Gundam vs. Gundam NEXT PLUS
+game: Killzone: Liberation
+game: The King of Fighters Collection: The Orochi Saga
+game: Kingdom Hearts: Birth by Sleep
+game: Kingdom of Paradise
+game: Knights in the Nightmare
+game: Kurulin Fusion
+game: L.A. Rush
+game: La Pucelle: Ragnarok
+game: Lanfeust Of Troy
+game: The Legend of Heroes II: Prophecy of the Moonlight Witch
+game: The Legend of Heroes II: Prophecy of the Moonlight Witch
+game: The Legend of Heroes III: Song Of The Ocean
+game: Legend of the Dragon
+game: Legends of War: Patton's Campaign
+game: LEGO Batman: The Videogame
+game: LEGO Harry Potter: Years 1-4
+game: LEGO Harry Potter: Years 5-7
+game: LEGO Indiana Jones: The Original Adventures
+game: LEGO Indiana Jones 2: The Adventure Continues
+game: LEGO Star Wars II: The Original Trilogy
+game: LEGO Star Wars III: The Clone Wars
+game: Lemmings
+game: LittleBigPlanet
+game: LocoRoco
+game: LocoRoco Midnight Carnival
+game: LocoRoco 2
+game: Lord of Arcana
+game: The Lord of the Rings: Tactics
+game: The Lord of the Rings: Aragorn's Quest
+game: Lumines 2
+game: Lumines II
+game: Lunar: Silver Star Harmony
+game: Luxor Pharaoh's Challenge
+game: M.A.C.H.: Modified Air Combat Heroes
+game: Mana Khemia: Student Alliance
+game: Manhunt 2
+	All versions are quite similar. The Wii edition includes three exclusive weapons (bottle, mace and a razor), while the other two versions have a weapon not found in the Wii game: a samurai sword. The Wii version is also the only one to include a short tutorial to familiarize the player with the controls. Other small changes in the Wii edition include more detailed environments, additional dialogue, new hunters (Sexual Deviants scene), some changes in weapon placement, a new manhole execution (in Ghosts), and more animations for Daniel and Leo, especially in close combat.
+game: Marvel Nemesis: Rise of the Imperfects
+game: Marvel Super Hero Squad
+game: Marvel Trading Card Game
+game: Marvel: Ultimate Alliance 2
+game: Me & My Katamari
+game: Medal of Honor: Heroes
+game: Medal of Honor: Heroes 2
+game: MediEvil: Resurrection
+game: Mega Man Maverick Hunter X
+game: Mega Man Power Up
+game: Megamind: The Blue Defender
+game: Mercury Meltdown
+	In addition to the main game, there are now five party games, which are unlocked by collecting the bonus stars in the main game:
+game: Metal Gear Acid
+game: Metal Gear Acid 2
+game: Metal Gear Solid: Digital Graphic Novel
+game: Metal Gear Solid: Peace Walker
+game: Metal Gear Solid: Portable Ops
+game: Metal Gear Solid: Portable Ops Plus
+game: Metal Slug Anthology
+game: Metal Slug XX
+game: Miami Vice
+game: Michael Jackson: The Experience
+game: Micro Machines V4
+game: Midnight Club: L.A. Remix
+game: Midnight Club 3: DUB Edition
+game: Mighty Flip Champs DX
+game: Military History: Commander: Europe at War
+game: Mimana Iyar Chronicle
+game: ModNation Racers
+game: Monster Hunter Freedom
+game: Monster Hunter Freedom 2
+game: Monster Hunter: Freedom Unite
+game: Monster Hunter Portable 3rd HD
+game: Monster Jam: Path of Destruction
+game: Monster Jam: Urban Assault
+game: Mortal Kombat: Unchained
+game: MotoGP
+game: MotorStorm: Arctic Edge
+game: MTX Mototrax
+game: Warrior Orochi 2 Special
+game: MVP Baseball
+game: MX vs. ATV Reflex
+game: MX VS ATV: On The Edge
+game: MX vs. ATV: Untamed
+game: Myst
+game: Mystic Chronicles
+game: Mytran Wars
+game: N Plus
+game: Napoleon Dynamite: The Game
+game: Naruto: Ultimate Ninja Heroes 2: The Phantom Fortress
+game: Naruto: Ultimate Ninja Heroes
+game: Naruto Shippuden: Kizuna Drive
+game: Naruto Shippuden: Legends: Akatsuki Rising
+game: Naruto Shippuden: Ultimate Ninja Heroes 3
+game: Naruto Shippuden: Ultimate Ninja Impact
+game: Trails of Nayuta
+game: Need for Speed: Most Wanted 5-1-0
+game: Need for Speed: Undercover
+game: Need for Speed: Carbon: Own the City
+game: Need for Speed: ProStreet
+game: Need for Speed: Shift
+game: Need for Speed: Underground Rivals
+game: NeoGeo Heroes Ultimate Shooting
+game: Neopets: Petpet Adventures: The Wand of Wishing
+game: Neverland Card Battles
+game: No Gravity: The Plague of Mind
+game: No Heroes Allowed!
+game: Numblast
+game: Obscure : The Aftermath
+game: Open Season
+game: OutRun 2006: Coast 2 Coast
+game: Over the Hedge: Hammy Goes Nuts!
+game: Pac-Man World 3
+game: Pac-Man World Rally
+game: Pangya: Fantasy Golf
+game: PaRappa the Rapper
+game: Passport To London
+game: Patapon 2
+game: Patapon 3
+game: Patapon
+game: Patchwork Heroes
+game: Peggle
+game: Peter Jackson's King Kong
+game: Phantasy Star Portable
+game: Phantasy Star Portable 2
+game: Phantom Brave: The Hermuda Triangle
+game: Phineas and Ferb: Across the 2nd Dimension
+game: Pilot Academy
+game: Pimp My Ride
+game: Pinball Heroes
+game: Pinball Hall of Fame: The Gottlieb Collection
+game: Pipe Mania
+game: Pirates of the Caribbean: At World's End
+game: Pirates of the Caribbean: Dead Man's Chest
+game: PixelJunk Monsters Deluxe
+game: Piyotama
+game: Planetarian: Chiisana Hoshi no Yume
+game: Platypus
+game: Pocket Racers
+game: PoPoLoCrois
+game: Power Stone Collection
+game: Prince of Persia: Revelations
+game: Prince of Persia: The Forgotten Sands
+game: Prince of Persia: Rival Swords
+game: Prinny 2: Dawn of Operation Panties, Dood!
+game: Prinny: Can I Really Be the Hero?
+game: Pro Bull Riders: Out of the Chute
+game: Pursuit Force: Extreme Justice
+game: Pursuit Force
+game: Puzzle Bobble Pocket
+game: R-Type Command
+game: R-Type Tactics II: Operation Bitter Chocolate
+game: Race Driver 2006
+game: Ragnarok Tactics
+game: Rainbow Islands Evolution
+game: Rapala Pro Bass Fishing
+game: Rapala Trophies
+game: Ratatouille
+game: Ratchet & Clank: Size Matters
+game: Reel Fishing: The Great Outdoors
+game: Rengoku II: The Stairway to H.E.A.V.E.N.
+game: Rengoku II: The Stairway to H.E.A.V.E.N.
+game: Resistance: Retribution
+game: Ridge Racer 2
+game: Ridge Racer
+game: Riviera: The Promised Land
+game: Rocky Balboa
+game: Rush
+game: Samurai Showdown Anthology
+game: Samurai Warriors: State of War
+game: Savage Moon: The Hera Campaign
+game: Scarface: Money. Power. Respect.
+game: Scooby-Doo! Who's Watching Who?
+game: SD Gundam G Generation Overworld
+game: Secret Agent Clank
+game: The Secret Saturdays: Beasts of the 5th Sun
+game: Sega Rally Revo
+game: Shadow of Destiny
+game: Shaun White Snowboarding
+game: Shepherd's Crossing
+game: Shin Megami Tensei: Persona
+game: Shin Megami Tensei: Persona 2: Innocent Sin
+game: Shin Megami Tensei: Persona 3 Portable
+game: Shin Sangoku Musou: Multi Raid 2
+game: Shinobido Homura: Soul of the Ninja
+game: Shrek Smash n' Crash Racing
+game: Shrek The Third
+game: Sid Meier's Pirates!
+game: Silent Hill: Origins
+game: Silent Hill: Shattered Memories
+game: Silverfall
+game: The Sims 2
+game: Smart Bomb
+game: Snoopy Vs. The Red Baron
+game: SOCOM: U.S. Navy SEALs: Fireteam Bravo
+game: SOCOM: U.S. Navy SEALs: Fireteam Bravo 2
+game: SOCOM: U.S. Navy SEALs: Fireteam Bravo 3
+game: Sol Trigger
+game: Sonic Rivals 2
+game: Sonic Rivals
+game: SoulCalibur: Broken Destiny
+game: Space Invaders Evolution
+game: Space Invaders Extreme
+game: Spectral Souls: Resurrection of the Ethereal Empires
+game: Spider-Man: Friend or Foe
+game: Spider-Man Web of Shadows: Amazing Allies Edition
+game: Spider-Man 2
+game: Spider-Man 3
+game: Spinout
+game: Split-Second: Velocity
+game: Spongebob Squarepants: The Yellow Avenger
+game: SpongeBob's Truth or Square
+game: SSX on Tour
+game: Stacked with Daniel Negreanu
+game: Star Ocean: First Departure
+game: Star Ocean: Second Evolution
+game: Star Soldier
+game: Star Trek: Tactical Assault
+game: Star Wars: Battlefront II
+game: Star Wars: Lethal Alliance
+game: Star Wars: The Clone Wars: Republic Heroes
+game: Star Wars: The Force Unleashed
+game: Star Wars Battlefront: Elite Squadron
+game: Star Wars Battlefront: Renegade Squadron
+game: State Shift
+game: Steambot Chronicles: Battle Tournament
+game: Steel Horizon
+game: StormLover Kai!!
+game: Street Fighter Alpha 3 MAX
+game: Street Riders
+game: Street Supremacy
+game: StreetKix Freestyle
+game: Strikers 1945 Plus
+game: Summon Night 5
+game: Super Collapse 3
+game: Super Monkey Ball Adventure
+game: Super Stardust Portable
+game: Surf's Up
+game: Susume Tactics!
+game: SWAT: Target Liberty
+game: Sweet Fuse: At Your Side
+game: Sword Art Online: Infinity Moment
+game: Syphon Filter: Combat Ops
+game: Syphon Filter: Dark Mirror
+game: Syphon Filter: Logan's Shadow
+game: T.A.C. Heroes: Big Red One
+game: Tactics Ogre: Let Us Cling Together
+game: Taiko no Tatsujin Portable
+game: Tales of Eternia
+game: Tales of the World: Radiant Mythology
+game: Tantei Opera Milky Holmes
+game: Tekken: Dark Resurrection
+game: Tekken 6
+game: Tenchu: Shadow Assasins
+game: Test Drive Unlimited
+game: The 3rd Birthday
+game: The Con
+game: The Eye of Judgment: Legends
+game: The Fast and the Furious
+game: The Godfather Mob Wars
+game: The Golden Compass
+game: The Red Star
+game: The Simpsons Game
+game: The Warriors
+game: THEXDER NEO
+game: Thrillville
+game: Thrillville: Off the Rails
+game: TMNT: Teenage Mutant Ninja Turtles
+game: TNA iMPACT!: Cross the Line
+game: TNT Racers
+game: TOCA Race Driver 3 Challenge
+game: Tokobot
+game: Tom Clancy's EndWar
+game: Tom Clancy's Ghost Recon: Advanced Warfighter 2
+game: Tom Clancy's Rainbow Six: Vegas
+game: Tom Clancy's Splinter Cell: Essentials
+game: Tom Clancy's Ghost Recon: Predator
+game: Tomb Raider: Legend
+game: Tomb Raider: Anniversary
+game: Tony Hawk's Project 8
+game: Tony Hawk's Underground 2 Remix
+game: Toradora! Portable
+game: Toy Story 3
+game: Transformers: Revenge of the Fallen
+game: Transformers: Revenge of the Fallen
+game: Traxxpad
+game: Tron: Evolution
+game: Twisted Metal: Head-On
+game: UFC Undisputed 2010
+game: Ultimate Block Party
+game: Ultimate Ghosts 'n Goblins
+game: Unbound Saga
+game: Unchained Blades
+game: Undead Knights
+game: Untold Legends: Brotherhood of the Blade
+game: Untold Legends: The Warrior's Code
+game: Up
+game: Valhalla Knights
+game: Valhalla Knights 2
+game: Valkyria Chronicles 2
+game: Valkyrie Profile: Lenneth
+game: Vertigo
+game: Viewtiful Joe: Red Hot Rumble
+game: WALL-E
+game: Warhammer: Battle for Atluma
+game: Warhammer: 40,000 Squad Command
+game: Warriors Of The Lost Empire
+game: Warriors Orochi
+game: Way of the Samurai Portable 2
+game: What Did I Do to Deserve This, My Lord?
+game: What Did I Do to Deserve This, My Lord!? 2
+game: White Knight Chronicles: Origins
+game: Who Wants To Be A Millionare
+game: Wild Arms XF
+game: Winx Club: Join the Club
+game: Wipeout Pulse
+game: WipEout Pure
+game: WTF: Work Time Fun
+game: Worms: Battle Islands
+game: Worms: Open Warfare
+game: Worms: Open Warfare 2
+game: WRC: FIA World Rally Championship
+game: WWE All Stars
+game: WWE SmackDown! vs. RAW 2010 featuring ECW
+game: WWE Smackdown vs. Raw 2011
+game: X-Men Legends II: Rise of Apocalypse
+game: X-Men Origins: Wolverine
+game: Xiaolin Showdown
+game: Xyanide: Resurrection
+game: Yggdra Union: We'll Never Fight Alone
+game: Ys: The Oath in Felghana
+game: Ys I & II Chronicles
+game: Ys Seven
+game: Ys: The Ark of Napishtim
+game: Ys vs. Sora no Kiseki: Alternative Saga
+game: Yu-Gi-Oh! 5D's Tag Force 4
+game: Yu-Gi-Oh! 5D's Tag Force 5
+game: Yu-Gi-Oh! ARC-V Tag Force Special
+game: Yu-Gi-Oh! GX: Tag Force
+game: Yu-Gi-Oh! GX: Tag Force 2
+game: Yu-Gi-Oh! GX: Tag Force 3
+game: Z.H.P. Unlosing Ranger vs Darkdeath Evilman
+game: Zuma

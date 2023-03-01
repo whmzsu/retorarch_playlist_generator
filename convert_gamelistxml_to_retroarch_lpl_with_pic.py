@@ -6,7 +6,7 @@ import easygui
 import json
 
 gamelistfile = easygui.fileopenbox(
-    "Choose gamelist.xml file", "Choose gamelist.xml file,选择游戏列表文件xml文件")
+    "Choose gamelist.xml file", "Choose gamelist.xml file,选择游戏列表文件gamelist.xml文件")
 
 lplpathdir = easygui.diropenbox(
     "Playlist output dir", "Choose the lpl output dir,选择游戏列表文件输出目录")
