@@ -28,7 +28,7 @@ class Game():
         for i in ["<", ">", ":", '"', "/", "\\", "|", "?", "*","`"]:
             self.name = self.name.replace(i, '_')
 
-def write_playlist(gamelists,lplpathdir,rom_path):
+def write_playlist(gamelists,lplpathdir,rom_path,fix_db_name):
     gamedict = {}
     gamedict["version"]= "1.4"
     gamedict["label_display_mode"]=  0
@@ -38,7 +38,10 @@ def write_playlist(gamelists,lplpathdir,rom_path):
       
     gamedict["items"] = gamelists
     content = json.dumps(gamedict, indent=4, ensure_ascii=False)
-    playlist = os.path.join(lplpathdir, os.path.basename(rom_path))+".lpl"
+    if fix_db_name:
+        playlist = os.path.join(lplpathdir, fix_db_name)
+    else:
+        playlist = os.path.join(lplpathdir, os.path.basename(rom_path))+".lpl"
     with open(playlist, "w", encoding='utf8') as f:
             f.write(content)
     
@@ -57,12 +60,12 @@ def prepare_sections(metadatafile):
         sections.append(section)
     return sections
 
-def process_pic(game,rom_path,db_name):
+def process_pic(game,rom_path,db_name,lplpathdir):
     if game.screenshot:
         ss_full_file = game.screenshot.replace('./', rom_path+'/')
         ss_ext=os.path.splitext(ss_full_file)[1]
         db_path=os.path.splitext(db_name)[0]
-        pic_dest_dir=os.path.join(rom_path,db_path,'Named_Snaps')
+        pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
         ss_dest_file=os.path.join(pic_dest_dir,game.name+'.'+ss_ext)
 
         os.makedirs(pic_dest_dir,exist_ok=True)
@@ -71,7 +74,7 @@ def process_pic(game,rom_path,db_name):
         except Exception as e:
             print(e) 
 
-def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name):
+def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name,lplpathdir):
     gamelist = []
     for gamedes in sections:
         fulltext=''.join(gamedes)
@@ -115,7 +118,7 @@ def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name):
         else:
             db_name = os.path.basename(rom_path) + '.lpl'
 
-        process_pic(game,rom_path,db_name)
+        process_pic(game,rom_path,db_name,lplpathdir)
 
         gamelist.append({"path": game.file,"label": game.name, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
 
@@ -131,9 +134,9 @@ def process(check1, entry_metadata_file, entry_dest_playlist, entry_prefix, entr
     rom_path=os.path.split(metadatafile)[0]
 
     sections=prepare_sections(metadatafile)
-    gamelists=prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name)
+    gamelists=prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name,lplpathdir)
 
-    write_playlist(gamelists,lplpathdir,rom_path)
+    write_playlist(gamelists,lplpathdir,rom_path,fix_db_name)
 
     
     messagebox.showinfo('提示', '任务执行已结束,Task Completed')
@@ -185,7 +188,7 @@ def main():
     entry_prefix = tk.Entry(frame4, width=60)
 
     entry_db_name_label = tk.Label(
-        frame5, text="固定所有列表文件的db_name值,比如MAME.lpl,需要和最终retroarch封面所在的文件夹名称一致，\r\n 默认为metadata所在文件夹名称(可选,Optional)")
+        frame5, text="固定所有列表文件的db_name值及输出列表文件名,比如MAME.lpl,需要和最终retroarch封面所在的文件夹名称一致，\r\n 默认为metadata所在文件夹名称(可选,Optional)")
     entry_db_name = tk.Entry(frame5, width=60)
 
     button_confirm = tk.Button(
