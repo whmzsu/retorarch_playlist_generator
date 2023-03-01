@@ -11,7 +11,7 @@ with open('database\\gba_list_merge.csv','r',encoding='utf-8',newline='') as new
             pass
         try:
             #shutil.copy(os.path.join(path,line[1]),os.path.join(path,line[6].strip(),line[1][0:4]+'-'+line[4]+'-'+line[2]+'-'+line[5]+'.zip'))
-            shutil.move(os.path.join(path,line[1]),os.path.join(path,line[6].strip(),line[4]+'-'+line[2]+'-'+line[5]+'.zip'))
+            shutil.move(os.path.join(path,line[1]),os.path.join(path,line[6].strip(),line[2]+'-'+line[5]+'.zip'))
         except OSError as e:
             print(os.path.join(path,line[1]))
             print(e)

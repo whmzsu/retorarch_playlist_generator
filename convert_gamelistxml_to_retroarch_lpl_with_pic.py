@@ -46,9 +46,9 @@ for rom in roms:
     for i in ["<", ">", ":", '"', "'", "/", "\\", "|", "?", "*", "&"]:
         gamename = gamename.replace(i, '_')
     if prefix:
-        rom_path = os.path.join(prefix, romfile)
+        rom_path = os.path.join(prefix, rompath)
     else:
-        rom_path = os.path.join(os.path.dirname(gamelistfile), romfile)
+        rom_path = os.path.join(os.path.dirname(gamelistfile), rompath)
     if choice == "Windows":
        rom_path = rom_path.replace("/", "\\")
     else:
