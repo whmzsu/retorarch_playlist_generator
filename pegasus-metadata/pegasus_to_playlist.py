@@ -62,7 +62,7 @@ def prepare_sections(metadatafile):
 
 def process_pic(game,rom_path,db_name,lplpathdir):
     if game.screenshot:
-        ss_full_file = game.screenshot.replace('./', rom_path+'/')
+        ss_full_file = game.screenshot.replace('media/', rom_path+'/media/')
         ss_ext=os.path.splitext(ss_full_file)[1]
         db_path=os.path.splitext(db_name)[0]
         pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
@@ -73,6 +73,43 @@ def process_pic(game,rom_path,db_name,lplpathdir):
             shutil.copyfile(ss_full_file, ss_dest_file)
         except Exception as e:
             print(e) 
+
+def process_pic2(game,rom_path,db_name,lplpathdir):
+
+        ss_full_file_jpg=os.path.join(rom_path,'media',game.name,'boxfront.jpg')        
+        ss_full_file_png=os.path.join(rom_path,'media',game.name,'boxfront.png')
+
+        gamefilename_woe=os.path.splitext(os.path.split(game.file)[1])[0]
+        ss_full_file_jpg2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.jpg')
+        ss_full_file_png2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.png')
+
+        if os.path.exists(ss_full_file_jpg):
+            ss_full_file=ss_full_file_jpg
+        elif os.path.exists(ss_full_file_png):
+            ss_full_file=ss_full_file_png
+        elif os.path.exists(ss_full_file_jpg2):
+            ss_full_file=ss_full_file_jpg2
+        elif os.path.exists(ss_full_file_png2):
+            ss_full_file=ss_full_file_png2
+        else:
+            ss_full_file=''
+            
+        # for i in [ss_full_file_jpg,ss_full_file_png,ss_full_file_jpg2,ss_full_file_png2]:
+        #     if os.path.exists(i):
+        #         ss_full_file=i
+
+        if ss_full_file:
+            ss_ext=os.path.splitext(ss_full_file)[1]
+            db_path=os.path.splitext(db_name)[0]
+            pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
+            ss_dest_file=os.path.join(pic_dest_dir,game.name+ss_ext)
+
+            os.makedirs(pic_dest_dir,exist_ok=True)
+            try:
+                shutil.copyfile(ss_full_file, ss_dest_file)
+            except Exception as e:
+                print(e) 
+
 
 def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name,lplpathdir):
     gamelist = []
@@ -98,29 +135,33 @@ def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name,lplpathdir):
         assetsscreenshot=config.get('default','assets.screenshot',fallback='')
         assetsbackground=config.get('default','assets.background',fallback='')
 
-        game=Game(name, file, sortby, developer, publisher, genre,release,players,rating,description,assetsboxfront,assetsvideo,assetslogo,assetsscreenshot,assetsbackground)
+        if name:
+            game=Game(name, file, sortby, developer, publisher, genre,release,players,rating,description,assetsboxfront,assetsvideo,assetslogo,assetsscreenshot,assetsbackground)
 
-        gamefilename=os.path.split(game.file)[1]
+            gamefilename=os.path.split(game.file)[1]
 
-        if prefix:
-            game.file = game.file.replace('./', prefix)
-        else:
-            game.file = os.path.join(rom_path, gamefilename)
+            if prefix:
+                gamepath = os.path.join(prefix,gamefilename)
+            else:
+                gamepath = os.path.join(rom_path, gamefilename)
 
-        if choice:
-            game.file = game.file.replace("/", "\\")
-        else:
-            game.file = game.file.replace("\\", "/")
-            game.file = game.file.replace("//", "/")
+            if choice:
+                gamepath = gamepath.replace("/", "\\")
+            else:
+                gamepath = gamepath.replace("\\", "/")
+                gamepath = gamepath.replace("//", "/")
 
-        if fix_db_name:
-            db_name = fix_db_name
-        else:
-            db_name = os.path.basename(rom_path) + '.lpl'
+            if fix_db_name:
+                db_name = fix_db_name
+            else:
+                db_name = os.path.basename(rom_path) + '.lpl'
 
-        process_pic(game,rom_path,db_name,lplpathdir)
+            if game.screenshot:
+                process_pic(game,rom_path,db_name,lplpathdir)
+            else:
+                process_pic2(game,rom_path,db_name,lplpathdir)
 
-        gamelist.append({"path": game.file,"label": game.name, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
+            gamelist.append({"path": gamepath,"label": game.name, "core_path": "DETECT", "core_name": "DETECT", "crc32": "DETECT", "db_name": db_name})
 
     return gamelist
 
@@ -184,7 +225,7 @@ def main():
         path2))
 
     entry_prefix_label = tk.Label(
-        frame4, text="Rom path prefix 路径前缀,比如为其他平台制作列表的场景,\r\n默认为metadata文件所在目录(可选,Optional)")
+        frame4, text="Rom path prefix 路径前缀,比如为Android平台制作列表的场景,/storage/1111-1111/roms/PSP,\r\n默认为metadata文件所在目录(可选,Optional)")
     entry_prefix = tk.Entry(frame4, width=60)
 
     entry_db_name_label = tk.Label(
