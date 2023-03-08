@@ -63,15 +63,9 @@ def prepare_sections(metadatafile):
 
 def process_pic(game,rom_path,db_name,lplpathdir):
     if game.screenshot:
-<<<<<<< HEAD
-        game.screenshot=game.screenshot.replace('./media/','media/')
-        ss_full_file = os.path.join(rom_path,game.screenshot)
-        #ss_full_file=ss_full_file.replace('\\','/')
-=======
         pattern='/media/'
         clist = re.split(pattern, game.screenshot, maxsplit=1)
         ss_full_file = os.path.join(rom_path,'media',clist[1])
->>>>>>> fa8cd335b1d6d27fa45905c757111b850dcbc61a
         ss_ext=os.path.splitext(ss_full_file)[1]
         db_path=os.path.splitext(db_name)[0]
         pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
