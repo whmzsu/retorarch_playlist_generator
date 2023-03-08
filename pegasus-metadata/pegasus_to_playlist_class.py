@@ -1,5 +1,4 @@
 import os
-import re
 import configparser
 import json
 import shutil
@@ -44,7 +43,7 @@ def write_playlist(gamelists,lplpathdir,rom_path,fix_db_name):
     else:
         playlist = os.path.join(lplpathdir, os.path.basename(rom_path))+".lpl"
     with open(playlist, "w", encoding='utf8') as f:
-        f.write(content)
+            f.write(content)
     
 def prepare_sections(metadatafile):
     sections=[]
@@ -63,19 +62,11 @@ def prepare_sections(metadatafile):
 
 def process_pic(game,rom_path,db_name,lplpathdir):
     if game.screenshot:
-<<<<<<< HEAD
-        game.screenshot=game.screenshot.replace('./media/','media/')
-        ss_full_file = os.path.join(rom_path,game.screenshot)
-        #ss_full_file=ss_full_file.replace('\\','/')
-=======
-        pattern='/media/'
-        clist = re.split(pattern, game.screenshot, maxsplit=1)
-        ss_full_file = os.path.join(rom_path,'media',clist[1])
->>>>>>> fa8cd335b1d6d27fa45905c757111b850dcbc61a
+        ss_full_file = game.screenshot.replace('media/', rom_path+'/media/')
         ss_ext=os.path.splitext(ss_full_file)[1]
         db_path=os.path.splitext(db_name)[0]
         pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
-        ss_dest_file=os.path.join(pic_dest_dir,game.name+ss_ext)
+        ss_dest_file=os.path.join(pic_dest_dir,game.name+'.'+ss_ext)
 
         os.makedirs(pic_dest_dir,exist_ok=True)
         try:
@@ -85,40 +76,39 @@ def process_pic(game,rom_path,db_name,lplpathdir):
 
 def process_pic2(game,rom_path,db_name,lplpathdir):
 
-    ss_full_file_jpg=os.path.join(rom_path,'media',game.name,'boxfront.jpg')        
-    ss_full_file_png=os.path.join(rom_path,'media',game.name,'boxfront.png')
+        ss_full_file_jpg=os.path.join(rom_path,'media',game.name,'boxfront.jpg')        
+        ss_full_file_png=os.path.join(rom_path,'media',game.name,'boxfront.png')
 
-    gamefilename_woe=os.path.splitext(os.path.split(game.file)[1])[0]
-    ss_full_file_jpg2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.jpg')
-    ss_full_file_png2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.png')
+        gamefilename_woe=os.path.splitext(os.path.split(game.file)[1])[0]
+        ss_full_file_jpg2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.jpg')
+        ss_full_file_png2=os.path.join(rom_path,'media',gamefilename_woe,'boxfront.png')
 
-    if os.path.exists(ss_full_file_jpg):
-        ss_full_file=ss_full_file_jpg
-    elif os.path.exists(ss_full_file_png):
-        ss_full_file=ss_full_file_png
-    elif os.path.exists(ss_full_file_jpg2):
-        ss_full_file=ss_full_file_jpg2
-    elif os.path.exists(ss_full_file_png2):
-        ss_full_file=ss_full_file_png2
-    else:
-        ss_full_file=''
-        
-    # for i in [ss_full_file_jpg,ss_full_file_png,ss_full_file_jpg2,ss_full_file_png2]:
-    #     if os.path.exists(i):
-    #         ss_full_file=i
+        if os.path.exists(ss_full_file_jpg):
+            ss_full_file=ss_full_file_jpg
+        elif os.path.exists(ss_full_file_png):
+            ss_full_file=ss_full_file_png
+        elif os.path.exists(ss_full_file_jpg2):
+            ss_full_file=ss_full_file_jpg2
+        elif os.path.exists(ss_full_file_png2):
+            ss_full_file=ss_full_file_png2
+        else:
+            ss_full_file=''
+            
+        # for i in [ss_full_file_jpg,ss_full_file_png,ss_full_file_jpg2,ss_full_file_png2]:
+        #     if os.path.exists(i):
+        #         ss_full_file=i
 
-    if ss_full_file:
-        print(ss_full_file)
-        ss_ext=os.path.splitext(ss_full_file)[1]
-        db_path=os.path.splitext(db_name)[0]
-        pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
-        ss_dest_file=os.path.join(pic_dest_dir,game.name+ss_ext)
+        if ss_full_file:
+            ss_ext=os.path.splitext(ss_full_file)[1]
+            db_path=os.path.splitext(db_name)[0]
+            pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
+            ss_dest_file=os.path.join(pic_dest_dir,game.name+ss_ext)
 
-        os.makedirs(pic_dest_dir,exist_ok=True)
-        try:
-            shutil.copyfile(ss_full_file, ss_dest_file)
-        except Exception as e:
-            print(e) 
+            os.makedirs(pic_dest_dir,exist_ok=True)
+            try:
+                shutil.copyfile(ss_full_file, ss_dest_file)
+            except Exception as e:
+                print(e) 
 
 
 def prepare_gamelists(sections,prefix,choice,rom_path,fix_db_name,lplpathdir):
