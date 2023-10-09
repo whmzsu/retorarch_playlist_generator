@@ -62,17 +62,25 @@ def prepare_sections(metadatafile):
 
 def process_pic(game,rom_path,db_name,lplpathdir):
     if game.screenshot:
-        ss_full_file = game.screenshot.replace('media/', rom_path+'/media/')
-        ss_ext=os.path.splitext(ss_full_file)[1]
-        db_path=os.path.splitext(db_name)[0]
-        pic_dest_dir=os.path.join(lplpathdir,db_path,'Named_Snaps')
-        ss_dest_file=os.path.join(pic_dest_dir,game.name+'.'+ss_ext)
+        ss_full_file = game.screenshot.replace("media/", rom_path + "/media/")
+    elif game.boxfront:
+        ss_full_file = game.boxfront.replace("media/", rom_path + "/media/")
+    elif game.logo:
+        ss_full_file = game.logo.replace("media/", rom_path + "/media/")
+    if ss_full_file:
+        if ss_full_file.startswith("./") or ss_full_file.startswith(".\\"):
+            ss_full_file = ss_full_file[2:]
+        ss_ext = os.path.splitext(ss_full_file)[1]
+        print(ss_ext)
+        db_path = os.path.splitext(db_name)[0]
+        pic_dest_dir = os.path.join(lplpathdir, db_path, "Named_Snaps")
+        ss_dest_file = os.path.join(pic_dest_dir, game.name + ss_ext)
 
-        os.makedirs(pic_dest_dir,exist_ok=True)
+        os.makedirs(pic_dest_dir, exist_ok=True)
         try:
             shutil.copyfile(ss_full_file, ss_dest_file)
         except Exception as e:
-            print(e) 
+            print(e)
 
 def process_pic2(game,rom_path,db_name,lplpathdir):
 
