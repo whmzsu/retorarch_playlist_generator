@@ -147,10 +147,10 @@ def process_pic2(game, rom_path, db_name, lplpathdir):
     if ss_full_file:
         db_path = os.path.splitext(db_name)[0]
         pic_dest_dir = os.path.join(lplpathdir, db_path, "Named_Snaps")
-
+        pic_dest_file=os.path.join(pic_dest_dir,game.name+'.png')
         os.makedirs(pic_dest_dir, exist_ok=True)
         try:
-            shutil.copy(ss_full_file, pic_dest_dir)
+            shutil.copyfile(ss_full_file, pic_dest_file)
         except Exception as e:
             print(e)
 
